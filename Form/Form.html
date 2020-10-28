@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <div class="container">
+            <div class="header">
+                <h1>Student Registration Form</h1>
+            </div>
+        <form>
+            <div class="body">
+                <div class="top">
+                    <input type="date" name="date">
+                </div>
+            </div>
+        </form>
+           <div class="personal">
+                <h4>PERSONAL INFORMATION</h4>
+                <hr>
+                <form>
+                    <div class="input1">
+                        <input type="text" placeholder="name">
+                        <input type="date" name="date of birth">
+                    </div>
+                </form>
+            </div>
+            <div class="contact">
+                <h4>CONTACT INFORMATION</h4>
+                <hr>
+                <form>
+                    <div class="input2">
+                        <input type="text" placeholder="address" name="address">
+                    </div>
+                    <div class="double">
+                        <input type="text" placeholder="city" name="city">
+                        <input type="text" placeholder="province/state" name="province_state">
+                    </div>
+                    <div class="double2">
+                        <input type="number" placeholder="zip code" name="zip_code">
+                        <input type="text" placeholder="country" name="country">
+                    </div>
+                    <div class="double3">
+                        <input type="number" placeholder="phone" name="phone">
+                        <input type="email" placeholder="email" name="email">
+                    </div>
+                    <div class="radio">
+                        <label>mambership type</label>
+                        <input type="radio" name="mambership_type" value="r"/>reguler
+                        <input type="radio" name="mambership_type" value="p"/>premium
+                        <input type="radio" name="mambership_type" value="v"/>vip
+                        <hr>
+                    </div>
+                </form>
+            </div>
+            <div class="course">
+                <h4>COURSE INFORMATION</h4>
+                <hr>
+                <form>
+                    <div class="input3">
+                        <input type="text" placeholder="course name" name="course">
+                    </div>
+                    <div class="radio2">
+                    <label>payment details</label>
+                        <input type="radio" name="payment_details" value="c">cash
+                        <input type="radio" name="payment_details" value="q">cheque
+                        <input type="radio" name="payment_details" value="k">credit card
+                        <hr>
+                    </div>
+                    <div class="input4">
+                        <input type="text" placeholder="comments" name="comment">
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <form>
+                    <input type="text" name="student_signature" placeholder="student signature">
+                    <input type="text" name="validated_by" placeholder="validated by">
+                </form>
+            </div>
+            <div class="button">
+                <form>
+                    <input type="button" value="submit" name="proses">
+                </form>
+            </div>
+    </div>
+</body>
+</html>

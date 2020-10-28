@@ -1,0 +1,86 @@
+body {
+    font: 12px/25px arial, sans-sarif;
+    background-color: #eeeeee;
+}
+.header {
+    padding: 10px;
+}
+.header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.top {
+    text-align: right;
+}
+.top input {
+    width: 300px;
+    margin-right: 20px;
+
+}
+.personal hr {
+    margin-top: -15px;
+}
+.personal .input1 input {
+    width: 1317px;
+    display: block;
+    margin: 5px;
+}
+.contact hr {
+    margin-top: -15px;
+}
+.contact .input2 input {
+    width: 1317px;
+    margin: 5px;
+}
+.contact .double input {
+    margin-left: 5px;
+    width: 650px;
+}
+.contact .double2 input {
+    margin-left: 5px;
+    width: 650px;
+    margin-top: 5px;
+}
+.contact .double3 input {
+    margin-left: 5px;
+    width: 650px;
+    margin-top: 5px;
+}
+.contact .radio {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.contact .radio hr {
+    margin-top: -5px;
+}.course hr {
+    margin-top: -15px;
+}
+.course .input3 input {
+    width: 1317px;
+    margin-left: 5px;
+}
+.course .radio2 {
+    margin-left: 5px;
+}
+.course .radio2 hr {
+    margin-top: -5px;
+}
+.course .input4 input {
+    width: 1317px;
+    margin-left: 5px;
+}
+.footer {
+    text-align: right;
+}
+.footer input {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.button input {
+    margin-top: 20px;
+    margin-left: 1200px;
+}
+.button input:hover {
+    background-color: lightblue;
+    color: white;
+}
